@@ -1,4 +1,4 @@
-Fan Threashold
+Fan Threshold
 ==============
 
 # Credits
