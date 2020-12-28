@@ -1,12 +1,17 @@
 Fan Threshold
-==============
+===
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ccd85ecfc57e4cfe85814d309f1d52e3)](https://www.codacy.com/gh/Scene-Collective/ps4-fan-threshold/dashboard)
 
-# Credits
-### Exploits
-  - qwertyoruiopz
-  - Flatz
-  - CTurt
-  - Anonymous
+## Synopsis
+Sets the temperature threshold where the fan will kick into turbo.
 
-### Multi FW Payload Method
-  - CelesteBlue123
+For the payloads built with the most recent firmware supported visit [this repo].
+
+## Notes
+- Contribute translations for the decription in `meta.json`
+- Requires being built with the [Scene Collective Payload SDK]
+- Supports any firmware that the SDK supports
+
+[//]: #
+  [Scene Collective Payload SDK]: <https://github.com/Scene-Collective/ps4-payload-sdk>
+  [this repo]: <https://github.com/Scene-Collective/ps4-payload-repo>

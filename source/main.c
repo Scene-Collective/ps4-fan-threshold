@@ -1,14 +1,14 @@
-#include "kernel_utils.h"
+#include "ps4.h"
 
-#define THRESHOLDTEMP 60
+uint8_t THRESHOLDTEMP = 60;
 
 int _main(struct thread *td) {
+  UNUSED(td);
+
   initKernel();
   initLibc();
-  initPthread();
 
-  uint64_t fw_version = get_fw_version();
-  jailbreak(fw_version);
+  jailbreak();
 
   initSysUtil();
 
