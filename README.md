@@ -1,6 +1,6 @@
 Fan Threshold
 ===
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ccd85ecfc57e4cfe85814d309f1d52e3)](https://www.codacy.com/gh/Scene-Collective/ps4-fan-threshold/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/)](https://www.codacy.com/gh/Scene-Collective/ps4-fan-threshold/dashboard)
 
 ## Synopsis
 Sets the temperature threshold where the fan will kick into turbo.
