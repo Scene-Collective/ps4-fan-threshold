@@ -12,11 +12,6 @@ int _main(struct thread *td) {
 
   initSysUtil();
 
-  if (THRESHOLDTEMP > 100 || THRESHOLDTEMP < 55) {
-    printf_notification("Unsafe Fan Threshold! Skipping...");
-    return 0;
-  }
-
   int fd = open("/dev/icc_fan", O_RDONLY, 0);
   if (fd <= 0) {
     printf_notification("Unable to Open Fan Settings!");
