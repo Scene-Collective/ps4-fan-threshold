@@ -35,7 +35,7 @@ int _main(struct thread *td) {
   printf_notification("Fan Threshold Set to %i°C/%i°F!", THRESHOLDTEMP, (int)fahrenheit);
 
 #ifdef DEBUG_SOCKET
-  printf_socket("\nClosing socket...\n\n");
+  printf_debug("Closing socket...\n");
   SckClose(DEBUG_SOCK);
 #endif
 
